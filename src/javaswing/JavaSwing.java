@@ -10,7 +10,7 @@ import java.awt.*;
 import Swing1.ventana00;
 
 public class JavaSwing 
-{ 
+ 
 
 /**
  *
@@ -22,9 +22,21 @@ public class JavaSwing
     /**
      * @param args the command line arguments
      */
-    public javaSwing() 
+       public static void main(String[] args)
     {
-        // TODO code application logic here
+      
+ ventana00 miventana = new ventana00(); 
+miventana.setVisible(true); 
+miventana.setBounds(0, 0,600, 800); 
+miventana.setTitle("Mi primera interfaz grafica");
+
+miventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
     }
     
 }
+    
+        // TODO code application logic here
+    
+    
+
